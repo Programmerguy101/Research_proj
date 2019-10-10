@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+        <Button fx:id="Btn1" layoutX="99.0" layoutY="88.0" mnemonicParsing="false" onAction="#Button1Action" text="Select File" />
+        <ListView fx:id="FileList" layoutX="266.0" layoutY="51.0" prefHeight="206.0" prefWidth="270.0" />
+        <Button fx:id="Btn4" layoutX="491.0" layoutY="344.0" mnemonicParsing="false" onAction="#Button4Action" text="Continue" />
+      <ChoiceBox fx:id="GraphType" layoutX="151.0" layoutY="274.0" prefWidth="150.0" />
+      <Label layoutX="74.0" layoutY="279.0" text="Graph Type" />
+      <ListView fx:id="FileName" layoutX="266.0" layoutY="51.0" prefHeight="206.0" prefWidth="270.0" />
+      <Label layoutX="40.0" layoutY="319.0" prefHeight="17.0" prefWidth="106.0" text="Graphing Layout" />
+      <ChoiceBox fx:id="GraphLayout" layoutX="151.0" layoutY="314.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>
